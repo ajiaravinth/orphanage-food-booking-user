@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.userContainer {
+  width: 35%;
+  margin: auto;
+  margin-top: 5em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+.content {
+  margin-top: 9em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content h3 {
+  margin-bottom: 2em;
+}
+
+.booking-details {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-transform: capitalize;
+}
+
+.header h5 {
+  text-transform: capitalize;
+  margin: 0;
+  padding-top: 8px;
+  padding-right: 1em;
+}
+
+.back-btn {
+  margin: 2em 0;
+}
+
+.booking-form h3 {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.booking-form .form-group label {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.booking-form {
+  width: 65%;
+  margin: auto;
 }
